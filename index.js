@@ -22,5 +22,5 @@ function currentLine(array){
     for (var i = 0; i < 1; i++){
       return ("The line is currently: "+`${i+1}. ${array[i]},`+` ${i+2}. ${array[i+1]},`+` ${i+3}. ${array[i+2]}`)
     }
-  */}
+  }*/
 }
