@@ -20,7 +20,7 @@ function currentLine(array){
   }
   var peopleInLine = []
   for (let i = 0; i <1; i++ ){
-    peopleInLine.push(`${i+1}. ${line[i]}`)
+    peopleInLine.push(`${i+1}. ${array[i]}`)
   }
   return `The line is currently: ${peopleInLine.join(`, `)}`
   /*else{
