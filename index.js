@@ -19,7 +19,7 @@ function currentLine(array){
     return "The line is currently empty."
   }
   var peopleInLine = []
-  for (let i = 0; i <1; i++ ){
+  for (let i = 0; i < array.length; i++ ){
     peopleInLine.push(`${i+1}. ${array[i]}`)
   }
   return `The line is currently: ${peopleInLine.join(`, `)}`
